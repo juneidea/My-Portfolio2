@@ -338,7 +338,7 @@ section h5 {
   -webkit-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
   -webkit-animation: rotateCubeLeftOut 1s both ease-in;
-  animation: rotateCubeLeftOut 1ss both ease-in;
+  animation: rotateCubeLeftOut 1s both ease-in;
 }
 
 @-webkit-keyframes rotateCubeLeftOut {
