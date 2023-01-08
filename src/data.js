@@ -3,11 +3,11 @@ export const projectData = [
   {
     name: `Tick-Toc`,
     description: `Reverse engineered of the popular collaborative game keep talking & nobody explodes on a website 3D graphic. Try it out!`,
-    demo: 'https://tick-toc2.herokuapp.com',
-    github: 'https://github.com/tick-toc/tick-toc2',
-    tech: ['Three.js', 'WebRTC', 'React', 'Redux'],
+    demo: 'https://tick-toc.herokuapp.com',
+    github: 'https://github.com/juneidea/tick-toc-resurrect',
+    tech: ['Three.js', 'React', 'Postgres', 'Express'],
     image: 'tickToc.png',
-    active: false,
+    active: true,
   },
 
   {
