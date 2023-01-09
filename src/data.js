@@ -11,12 +11,12 @@ export const projectData = [
   },
 
   {
-    name: `Chart&Form`,
-    description: `2 sorted charts with a form to add more bars. Input form with warning error messages when off focus.`,
-    demo: 'https://juneidea-portfolio.herokuapp.com/bar-chart',
-    github: 'https://github.com/juneidea/bar-chart',
-    tech: ['React', 'chart', 'form control'],
-    image: 'chart.png',
+    name: `Three-Journey`,
+    description: `A stackathon award winner - A presentative website about Three.js and its 3D features through my little projects and experiments`,
+    demo: 'https://three-journey.herokuapp.com/',
+    github: 'https://github.com/juneidea/three-journey',
+    tech: ['Three.js', 'React', 'animate on scroll'],
+    image: 'threeJ.png',
     active: true,
   },
 
@@ -42,13 +42,13 @@ export const projectData = [
 
 
   {
-    name: `Star War API`,
-    description: `Display REST API data using react-select for a dropdown menu and searchable combo also using P5.js for a starfield background.`,
-    demo: 'https://starwar-api.herokuapp.com/',
-    github: 'https://github.com/juneidea/starwar',
-    tech: ['React-select', 'P5.js', 'CSS'],
-    image: 'starWar.png',
-    active: false,
+    name: `Chart&Form`,
+    description: `2 sorted charts with a form to add more bars. Input form with warning error messages when off focus.`,
+    demo: 'https://juneidea-portfolio.herokuapp.com/bar-chart',
+    github: 'https://github.com/juneidea/bar-chart',
+    tech: ['React', 'chart', 'form control'],
+    image: 'chart.png',
+    active: true,
   },
 
   {
