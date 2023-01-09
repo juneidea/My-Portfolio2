@@ -1,0 +1,163 @@
+.App-base {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-title {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.Bar {
+  height: 16px;
+}
+
+.Graph {
+  width: 60%;
+}
+
+.Graph-bar {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: none;
+  display: inline-flex;
+  height: 20px;
+  padding-top: 5px;
+  width: 80%;
+}
+
+.Graph-bar span {
+  border-right: 1px solid white;
+  display: inline-block;
+  font-size: xx-small;
+  height: 16px;
+  text-align: right;
+  width: 10%;
+}
+
+.Graph-bar span:last-child {
+  border: none;
+}
+
+.Graph-border {
+  height: 25px;
+}
+
+.Graph-border:last-child .Graph-bar {
+  border-bottom: 1px solid white;
+}
+.Graph-border:first-child .Graph-bar {
+  border-top: 1px solid white;
+  padding-top: 0;
+}
+
+.Graph-name {
+  display: inline-block;
+  font-size: 18px;
+  height: 25px;
+  padding-right: 5px;
+  vertical-align: text-top;
+  width: 15%;
+}
+
+.Graph-title {
+  color: #61dafb;
+  display: inline-block;
+  width: 15%;
+}
+
+.Graph-scale {
+  display: inline-flex;
+  width: 80%;
+}
+
+.Graph-start {
+  display: inline-block;
+  margin-right: auto;
+}
+
+.Graph-end {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: -10px;
+}
+
+@media (max-width: 600px) {
+  .Graph-name {
+    font-size: 4vw;
+  }
+  .Graph-title {
+    font-size: 4vw;
+  }
+  .Graph {
+    width: 90%
+  }
+}
+
+/* 
+  Form 
+*/
+.Register {
+  color: #61dafb;
+  margin-top: 10px;
+}
+
+.Form-input:invalid[warn="true"] {
+  border-color: lightcoral;
+}
+
+.Form-input:invalid[warn="true"] ~ div span {
+  display: block;
+}
+
+.Form-line {
+  display: block;
+}
+
+.Form-line label {
+  display: inline-block;
+  font-size: medium;
+  width: 60px;
+}
+
+.Form-line input {
+  display: inline;
+}
+
+.Form-line span {
+  display: none;
+}
+
+.Form-sub {
+  height: 15px;
+}
+
+.Form-warning {
+  color: lightcoral;
+  display: block;
+  height: 15px;
+  font-size: small;
+}
+
+.Submit {
+  background-color: #61dafb;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px, 10px;
+}
+
+.Submit:hover {
+  border: 1px solid lightgrey;
+  color: lightgrey;
+}

@@ -4,15 +4,17 @@ import {
   NavLink,
   Switch
 } from "react-router-dom";
+import {
+  CSSTransition,
+  TransitionGroup,
+} from 'react-transition-group';
+
 import './stylesheets/App.css';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
-import {
-  CSSTransition,
-  TransitionGroup,
-} from 'react-transition-group';
+import BarChart from './bar-chart/App'
 
  //This returns a childFactory to provide to TransitionGroup
  const childFactoryCreator = (classNames) => (
@@ -25,6 +27,8 @@ import {
 
 // class component
 const App = () => {
+  const pathname = window.location.pathname
+  
   const [previousPage, setPreviousPage] = useState(1)
   const [goPage, setGoPage] = useState(1)
 
@@ -34,6 +38,7 @@ const App = () => {
   }
   return (
     <div className="App">
+      {pathname !== '/bar-chart' && 
       <div className="nav">
         <div className="glowing">
           <span></span>
@@ -51,7 +56,7 @@ const App = () => {
         <NavLink to="/about" activeClassName="active" onClick={() => {getPage(2)}}>ABOUT</NavLink>
         <NavLink to="/projects" activeClassName="active" onClick={() => {getPage(3)}}>PROJECTS</NavLink>
         <NavLink to="/contact" activeClassName="active" onClick={() => {getPage(4)}}>CONTACT</NavLink>
-      </div>
+      </div>}
       <Route render={({location}) => (
       <TransitionGroup childFactory={childFactoryCreator( goPage === previousPage ? '' : goPage > previousPage ? "fadeUp" : "fadeDown")} >
         <CSSTransition
@@ -68,6 +73,7 @@ const App = () => {
         </CSSTransition>
       </TransitionGroup>
       )} />
+      <Route path="/bar-chart" component={BarChart} />
     </div>
   );
 }

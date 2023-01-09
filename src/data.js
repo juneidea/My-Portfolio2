@@ -13,7 +13,7 @@ export const projectData = [
   {
     name: `Chart&Form`,
     description: `2 sorted charts with a form to add more bars. Input form with warning error messages when off focus.`,
-    demo: 'https://chart-and-form.herokuapp.com',
+    demo: 'https://juneidea-portfolio.herokuapp.com/bar-chart',
     github: 'https://github.com/juneidea/bar-chart',
     tech: ['React', 'chart', 'form control'],
     image: 'chart.png',
