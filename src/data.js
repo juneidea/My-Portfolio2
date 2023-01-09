@@ -23,7 +23,7 @@ export const projectData = [
   {
     name: `Lady M.O.`,
     description: `3D effect on picture like the popular feature on Facebook. Snowing effect on top with particles.js`,
-    demo: 'https://lady-mo.herokuapp.com/',
+    demo: 'https://juneidea.github.io/Lady-M.O./',
     github: 'https://github.com/juneidea/Lady-M.O.',
     tech: ['particles.js', 'fake3D effect'],
     image: 'ladyMO.png',
@@ -48,7 +48,7 @@ export const projectData = [
     github: 'https://github.com/juneidea/starwar',
     tech: ['React-select', 'P5.js', 'CSS'],
     image: 'starWar.png',
-    active: true,
+    active: false,
   },
 
   {
