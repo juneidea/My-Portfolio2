@@ -11,12 +11,12 @@ export const projectData = [
   },
 
   {
-    name: `Three-Journey`,
-    description: `A stackathon award winner - A presentative website about Three.js and its 3D features through my little projects and experiments`,
-    demo: 'https://three-journey.herokuapp.com/',
-    github: 'https://github.com/juneidea/three-journey',
-    tech: ['Three.js', 'React', 'animate on scroll'],
-    image: 'threeJ.png',
+    name: `Chart&Form`,
+    description: `2 sorted charts with a form to add more bars. Input form with warning error messages when off focus.`,
+    demo: 'https://juneidea-portfolio.herokuapp.com/bar-chart',
+    github: 'https://github.com/juneidea/bar-chart',
+    tech: ['React', 'chart', 'form control'],
+    image: 'chart.png',
     active: true,
   },
 
@@ -40,14 +40,13 @@ export const projectData = [
     active: true,
   },
 
-
   {
-    name: `Chart&Form`,
-    description: `2 sorted charts with a form to add more bars. Input form with warning error messages when off focus.`,
-    demo: 'https://juneidea-portfolio.herokuapp.com/bar-chart',
-    github: 'https://github.com/juneidea/bar-chart',
-    tech: ['React', 'chart', 'form control'],
-    image: 'chart.png',
+    name: `Three-Journey`,
+    description: `A stackathon award winner - A presentative website about Three.js and its 3D features through my little projects and experiments`,
+    demo: 'https://three-journey.herokuapp.com/',
+    github: 'https://github.com/juneidea/three-journey',
+    tech: ['Three.js', 'React', 'animate on scroll'],
+    image: 'threeJ.png',
     active: true,
   },
 
