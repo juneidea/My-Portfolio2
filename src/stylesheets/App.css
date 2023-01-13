@@ -138,12 +138,7 @@ body, html {
   transform-origin: right;
   box-shadow: 0 0 20px #ffdc50, 0 0 40px #ffdc50, 0 0 60px #ffdc50, 0 0 0 2px #ffdc50;
 }
-.nav a:hover:before {
-  transform: scaleX(1);
-  transition: transform 0.5s;
-  transform-origin: right;
-  box-shadow: 0 0 20px #ffdc50, 0 0 40px #ffdc50, 0 0 60px #ffdc50, 0 0 0 2px #ffdc50;
-}
+
 .nav a:after {
   content: "";
   position: absolute;
@@ -158,15 +153,25 @@ body, html {
   transform-origin: left;
   box-shadow: 0 0 20px #ffdc50, 0 0 40px #ffdc50, 0 0 60px #ffdc50, 0 0 0 2px #ffdc50;
 }
-.nav a:hover:after {
-  transform: scaleX(1);
-  transition: transform 0.5s;
-  transform-origin: left;
-  box-shadow: 0 0 20px #ffdc50, 0 0 40px #ffdc50, 0 0 60px #ffdc50, 0 0 0 2px #ffdc50;
-}
+
 .nav a.active {
   color: #fff;
   border: none;
+}
+
+@media screen and (min-device-width:520px), screen and (min-width:520px) {
+  .nav a:hover:before {
+    transform: scaleX(1);
+    transition: transform 0.5s;
+    transform-origin: right;
+    box-shadow: 0 0 20px #ffdc50, 0 0 40px #ffdc50, 0 0 60px #ffdc50, 0 0 0 2px #ffdc50;
+  }
+  .nav a:hover:after {
+    transform: scaleX(1);
+    transition: transform 0.5s;
+    transform-origin: left;
+    box-shadow: 0 0 20px #ffdc50, 0 0 40px #ffdc50, 0 0 60px #ffdc50, 0 0 0 2px #ffdc50;
+  }
 }
 
 section {
@@ -474,6 +479,24 @@ section h5 {
   transform: translate(-50%, -50%);
   width: 400px;
   height: 400px;
+}
+.menu-block {
+  display: inline-block;
+}
+@media screen and (max-device-width:519px), screen and (max-width:519px) {
+  .glowing {
+    display: none;
+  }
+  .glowing2 {
+    display: none;
+  }
+  .nav {
+    height: 90px;
+    padding: 5px 0;
+  }
+  .menu-block {
+    display: block;
+  }
 }
 .glowing span {
   position: absolute;

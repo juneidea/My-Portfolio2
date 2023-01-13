@@ -54,8 +54,10 @@ const App = () => {
         </div>
         <NavLink exact to="/" activeClassName="active" onClick={() => {getPage(1)}}>HOME</NavLink>
         <NavLink to="/about" activeClassName="active" onClick={() => {getPage(2)}}>ABOUT</NavLink>
+        <div className="menu-block">
         <NavLink to="/projects" activeClassName="active" onClick={() => {getPage(3)}}>PROJECTS</NavLink>
         <NavLink to="/contact" activeClassName="active" onClick={() => {getPage(4)}}>CONTACT</NavLink>
+        </div>
       </div>}
       <Route render={({location}) => (
       <TransitionGroup childFactory={childFactoryCreator( goPage === previousPage ? '' : goPage > previousPage ? "fadeUp" : "fadeDown")} >
