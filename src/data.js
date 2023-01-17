@@ -3,7 +3,7 @@ export const projectData = [
   {
     name: `Tick-Toc`,
     description: `Reverse engineered of the popular collaborative game keep talking & nobody explodes on a website 3D graphic. Try it out!`,
-    demo: 'http://ec2-3-133-84-229.us-east-2.compute.amazonaws.com:8080/',
+    demo: 'http://ec2-3-133-84-229.us-east-2.compute.amazonaws.com',
     github: 'https://github.com/juneidea/tick-toc-resurrect',
     tech: ['Node', 'React', 'Postgres', 'Docker', 'AWS'],
     image: 'tickToc.png',
