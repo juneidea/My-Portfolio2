@@ -43,9 +43,9 @@ export const projectData = [
   {
     name: `Three-Journey`,
     description: `A stackathon award winner - A presentative website about Three.js and its 3D features through my little projects and experiments`,
-    demo: 'https://three-journey.herokuapp.com/',
+    demo: 'https://juneidea.github.io/three-journey/',
     github: 'https://github.com/juneidea/three-journey',
-    tech: ['Three.js', 'React', 'animate on scroll'],
+    tech: ['Three.js', 'CSS', 'HTML'],
     image: 'threeJ.png',
     active: true,
   },
