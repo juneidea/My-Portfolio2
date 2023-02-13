@@ -11,12 +11,12 @@ export const projectData = [
   },
 
   {
-    name: `Chart&Form`,
-    description: `2 sorted charts with a form to add more bars. Input form with warning error messages when off focus.`,
-    demo: 'https://juneidea-portfolio.herokuapp.com/bar-chart',
-    github: 'https://github.com/juneidea/bar-chart',
-    tech: ['React', 'chart', 'form control'],
-    image: 'chart.png',
+    name: `Candy-Shop`,
+    description: `While candy pretty much sells itself, an E-commerce web can be a place for catching those craving consumers`,
+    demo: 'http://ec2-18-219-152-91.us-east-2.compute.amazonaws.com/',
+    github: 'https://github.com/juneidea/candy-shop',
+    tech: ['Typescript', 'Postgres', 'Docker', 'AWS'],
+    image: 'candyShop.png',
     active: true,
   },
 
@@ -31,12 +31,12 @@ export const projectData = [
   },
 
   {
-    name: `Cold Stack`,
-    description: `An alumni page for Fullstack Chicago. Student photo album that flow with flip effect and link to their profile linkedin`,
-    demo: 'https://juneidea.github.io/ColdStack/',
-    github: 'https://github.com/juneidea/ColdStack',
-    tech: ['JavaScript', 'CSS', 'HTML'],
-    image: 'coldStack.png',
+    name: `Chart&Form`,
+    description: `2 sorted charts with a form to add more bars. Input form with warning error messages when off focus.`,
+    demo: 'https://juneidea-portfolio.herokuapp.com/bar-chart',
+    github: 'https://github.com/juneidea/bar-chart',
+    tech: ['React', 'chart', 'form control'],
+    image: 'chart.png',
     active: true,
   },
 
@@ -47,6 +47,16 @@ export const projectData = [
     github: 'https://github.com/juneidea/three-journey',
     tech: ['Three.js', 'CSS', 'HTML'],
     image: 'threeJ.png',
+    active: true,
+  },
+
+  {
+    name: `Cold Stack`,
+    description: `An alumni page for Fullstack Chicago. Student photo album that flow with flip effect and link to their profile linkedin`,
+    demo: 'https://juneidea.github.io/ColdStack/',
+    github: 'https://github.com/juneidea/ColdStack',
+    tech: ['JavaScript', 'CSS', 'HTML'],
+    image: 'coldStack.png',
     active: true,
   },
 
