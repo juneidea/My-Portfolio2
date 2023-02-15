@@ -13,7 +13,7 @@ export const projectData = [
   {
     name: `Candy-Shop`,
     description: `While candy pretty much sells itself, an E-commerce web can be a place for catching those craving consumers`,
-    demo: 'http://ec2-18-219-152-91.us-east-2.compute.amazonaws.com/',
+    demo: 'http://ec2-3-145-23-239.us-east-2.compute.amazonaws.com',
     github: 'https://github.com/juneidea/candy-shop',
     tech: ['Typescript', 'Postgres', 'Docker', 'AWS'],
     image: 'candyShop.png',
