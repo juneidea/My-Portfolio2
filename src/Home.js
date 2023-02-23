@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
-import resume from './assets/JuneSuparoekResume22.pdf';
+import resume from './assets/JuneSuparoekResume23.pdf';
 
 const Home = () => {
     return(
