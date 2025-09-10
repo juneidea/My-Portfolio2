@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import resume from "./assets/JuneSuparoekFullStack24.pdf";
+import resume from "./assets/June_Suparoek_Resume_25.pdf";
 
 const Home = () => {
   return (
